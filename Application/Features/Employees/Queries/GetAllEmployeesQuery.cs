@@ -21,6 +21,7 @@ namespace Application.Features.Employees.Queries
             _repositoryAsync = repositoryAsync;
             _mapper = mapper;
         }
+
         public async Task<Response<IEnumerable<EmployeeDto>>> Handle(GetAllEmployeesQuery request, CancellationToken cancellationToken)
         {
             var employees = await _repositoryAsync.ListAsync();

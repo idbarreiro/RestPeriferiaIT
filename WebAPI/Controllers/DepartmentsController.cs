@@ -1,9 +1,11 @@
 ﻿using Application.Features.Departments.Commands;
 using Application.Features.Departments.Queries;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers
 {
+    [Authorize]
     public class DepartmentsController : BaseApiController
     {
         [HttpGet("{id}")]

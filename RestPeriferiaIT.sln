@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1 d17.14
+VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{3C86BB6B-4341-4ACA-87D5-4BF296FB1D63}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{22541069-1F39-4B2A-A854-D415DFFF8FA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity", "Identity\Identity.csproj", "{9355200E-2FA4-433C-A207-A3587CFF96E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{22541069-1F39-4B2A-A854-D415DFFF8FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22541069-1F39-4B2A-A854-D415DFFF8FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22541069-1F39-4B2A-A854-D415DFFF8FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9355200E-2FA4-433C-A207-A3587CFF96E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9355200E-2FA4-433C-A207-A3587CFF96E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9355200E-2FA4-433C-A207-A3587CFF96E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9355200E-2FA4-433C-A207-A3587CFF96E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{30729023-01A9-439F-9EFA-9E1A84A10982} = {59F48D10-B578-4BEC-A420-DA642B35CD01}
 		{3C86BB6B-4341-4ACA-87D5-4BF296FB1D63} = {DC96C48B-AD03-4579-BE67-0910A571042D}
 		{22541069-1F39-4B2A-A854-D415DFFF8FA6} = {94A5F28E-0943-4CED-BE55-F968822285AA}
+		{9355200E-2FA4-433C-A207-A3587CFF96E1} = {DC96C48B-AD03-4579-BE67-0910A571042D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3EBD214C-AF23-4FCF-9645-05875AC620F1}

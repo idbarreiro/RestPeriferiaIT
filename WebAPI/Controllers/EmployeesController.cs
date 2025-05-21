@@ -1,10 +1,11 @@
-﻿using Application.Features.Departments.Queries;
-using Application.Features.Employees.Commands;
+﻿using Application.Features.Employees.Commands;
 using Application.Features.Employees.Queries;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers
 {
+    [Authorize]
     public class EmployeesController : BaseApiController
     {
         [HttpGet("{id}")]
